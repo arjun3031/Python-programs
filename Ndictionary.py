@@ -1,0 +1,10 @@
+dict={
+    "Class":{
+        "Student":{"Name":"Raju",
+                   "Marks":{
+                            "sub1":56,"sub2":46
+                    }
+                }              
+            }
+}
+print(dict["Class"]["Student"]["Marks"]["sub2"])
